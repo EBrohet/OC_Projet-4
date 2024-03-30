@@ -14,6 +14,19 @@
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="./assets/maugallery.js"></script>
 	<script src="./assets/scripts.js"></script>
+	<!-- Open Graph -->
+	<meta property="og:site_name" content="Nina Carducci _ Photographe" />
+	<meta property="og:url" content="http://EBrohet.github.io" />
+	<meta property="og:title" content="Nina Carducci _ Photographe" />
+	<meta property="og:description" content="Découvrez le site portfolio et les services proposés par la photographe Nina Carducci" />
+	<meta property="og:image" content="https://EBrohet.github.io/images/camera.png" />
+	<!-- Twitter cards -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@Nina_Carducci" />
+	<meta name="twitter:title" content="Nina Carducci _ Photographe" />
+	<meta name="twitter:description" content="Découvrez le site portfolio et les services proposés par la photographe Nina Carducci" />
+	<meta name="twitter:image" content="https://EBrohet.github.io/images/camera.png" />
+	<meta name="twitter:url" content="http://EBrohet.github.io" />
 </head>
 
 <body>
@@ -66,7 +79,7 @@
 	</div>
 	<div id="about-me">
 		<h2 class="about-me__title">A propos de moi</h2>
-		<h6 class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</h6>
+		<h3 class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</h3>
 		<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
 			C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 	</div>
@@ -160,5 +173,30 @@
 	</div>
 </section>
 </main>
+
+<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@type": "LocalBusiness",
+	  "name": "Nina Carducci",
+	  "address": {
+		"@type": "PostalAddress",
+		"streetAddress": "68 avenue Alsace-Lorraine",
+		"postalCode": "33200",
+		"addressLocality": "Bordeaux"
+	  },
+	  "contactPoint": {
+		"@type": "ContactPoint",
+		"telephone": "05 56 67 78 89",
+		"hoursAvailable": {
+			"@type": "OpeningHoursSpecification",
+			"dayOfWeek": "du lundi au vendredi",
+			"opens": "10:00",
+			"closes": "19:00"
+		}
+	  }
+	}
+</script>
+
 </body>
 </html>
